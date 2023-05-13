@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 
 require('dotenv').config();
 
-const port = 3000;
+const port = 8003;
 
 
 app.get('/', (_req, res) => {
